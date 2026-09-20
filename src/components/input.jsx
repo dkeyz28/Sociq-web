@@ -1,0 +1,1 @@
+import React from 'react'; export default function Input({icon,containerStyle={},...props}){return <div className="input" style={containerStyle}>{icon}{props.multiline?<textarea {...props}/>:<input {...props}/>}</div>}

@@ -1,0 +1,1 @@
+import React from 'react'; import BackButton from './BackButton'; export default function Header({title,showBackButton=true,mb=10}){return <div className="header" style={{marginBottom:mb}}>{showBackButton&&<BackButton/>}<h2>{title||''}</h2></div>}

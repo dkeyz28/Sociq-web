@@ -1,0 +1,1 @@
+import React from 'react'; import Loading from '../Loading'; export default function Button({buttonStyle,textStyle,title='',onPress=()=>{},loading=false,hasShadow=true}){return <button className="primaryButton" style={{...buttonStyle,...(hasShadow?{}:{boxShadow:'none'})}} onClick={onPress} disabled={loading}>{loading?<Loading/>:<span style={textStyle}>{title}</span>}</button>}

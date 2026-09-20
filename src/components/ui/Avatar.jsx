@@ -1,0 +1,1 @@
+import React from 'react'; import {getUserImageSrc} from '../../services/imageService'; export default function Avatar({url,size=52,rounded=14,style={}}){return <img className="avatar" src={getUserImageSrc(url)} style={{width:size,height:size,borderRadius:rounded,...style}}/>}
