@@ -14,7 +14,7 @@ export default function Welcome() {
         {/* Welcome image */}
         <img
           className="welcomeImage"
-          src="/assets/images/welcome.png"
+          src="/images/welcome.png"
           alt="Welcome to Sociq"
         />
 
